@@ -1,0 +1,80 @@
+/* General styling for the form */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8e6e6; /* Light red background */
+    color: #990000; /* Dark red text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Styling for the form container */
+form {
+    background-color: #ffffff; /* White background for the form */
+    border: 2px solid #990000; /* Dark red border */
+    border-radius: 8px;
+    padding: 20px;
+    width: 1000px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 1px solid #cc0000; /* Red border for fieldsets */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Legend styling */
+legend {
+    font-weight: bold;
+    color: #990000; /* Dark red color */
+}
+
+/* Label styling */
+label {
+    color: #cc0000; /* Slightly lighter red */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="radio"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #cc0000; /* Red border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Radio button styling */
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #990000; /* Dark red background */
+    color: #ffffff; /* White text */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #cc0000; /* Lighter red on hover */
+}
